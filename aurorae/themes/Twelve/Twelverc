@@ -12,13 +12,14 @@ TextShadowOffsetY=2
 HaloActive=true
 
 [Layout]
-TitleHeight=30
+TitleHeight=28
 TitleEdgeTop=1
 TitleEdgeBottom=0
 TitleEdgeLeft=8
 TitleEdgeRight=8
 TitleEdgeLeftMaximized=8
 TitleEdgeRightMaximized=8
+TitleBorderLeft=12
 ButtonMarginTop=6
 BorderTop=2
 PaddingTop=8
@@ -30,4 +31,4 @@ BorderBottom=1
 PaddingBottom=8
 ButtonWidth=18
 ButtonHeight=18
-ButtonSpacing=12
+ButtonSpacing=16
