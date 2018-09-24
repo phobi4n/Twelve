@@ -120,18 +120,18 @@ interior.element=tbb
 frame.element=tbb
 frame=true
 interior=true
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
-text.margin.left=2
-text.margin.right=2
-text.margin.top=2
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
+text.margin.left=0
+text.margin.right=0
+text.margin.top=0
 text.margin.bottom=0
 text.normal.color=white
-text.focus.color=#eaeaea
-text.toggle.color=#252629
-text.press.color=#ffffffdd
+text.focus.color=white
+text.toggle.color=white
+text.press.color=white
 
 [ToolbarLineEdit]
 interior.element=tlineedit
@@ -185,10 +185,10 @@ frame=true
 interior=false
 frame.element=common
 interior.element=common
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 
 [LineEdit]
 inherits=PanelButtonCommand
@@ -213,9 +213,9 @@ text.focus.color=#2B7EA8
 [Tab]
 inherits=PanelButtonCommand
 interior.element=tab
-text.margin.left=2
-text.margin.right=2
-text.margin.top=2
+text.margin.left=0
+text.margin.right=0
+text.margin.top=1
 text.margin.bottom=0
 frame.element=tab
 indicator.element=tab
@@ -224,12 +224,11 @@ frame.top=6
 frame.bottom=6
 frame.left=6
 frame.right=6
-text.normal.color=#f2f2f2dd
+text.normal.color=#eaeaea
 text.focus.color=white
 text.toggle.color=white
 text.bold=true
 text.shadow=false
-frame.expansion=0
 
 [TabFrame]
 inherits=PanelButtonCommand
@@ -320,14 +319,14 @@ inherits=PanelButtonCommand
 text.margin=0
 frame.element=itemview
 interior.element=itemview
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 text.normal.color=black
 text.focus.color=black
 text.press.color=white
-min_height=0
+text.toggle.color=green
 
 [Splitter]
 inherits=PanelButtonCommand
