@@ -4,12 +4,12 @@ comment=
 x11drag=all
 alt_mnemonic=true
 left_tabs=true
-attach_active_tab=true
+attach_active_tab=false
 group_toolbar_buttons=false
 spread_progressbar=true
 progressbar_thickness=6
 composite=true
-menu_shadow_depth=5
+menu_shadow_depth=8
 tooltip_shadow_depth=6
 splitter_width=7
 scroll_width=12
@@ -336,7 +336,7 @@ frame.right=4
 text.normal.color=black
 text.focus.color=black
 text.press.color=white
-text.toggle.color=green
+text.toggle.color=white
 
 [Splitter]
 inherits=PanelButtonCommand
@@ -438,10 +438,14 @@ text.toggle.color=white
 
 [Menu]
 inherits=PanelButtonCommand
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
+text.margin.left=8
+text.margin.right=8
+text.margin.top=8
+text.margin.bottom=8
 frame.element=menu
 interior.element=menu
 text.normal.color=black
