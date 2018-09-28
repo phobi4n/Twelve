@@ -9,7 +9,7 @@ group_toolbar_buttons=false
 spread_progressbar=true
 progressbar_thickness=6
 composite=true
-menu_shadow_depth=8
+menu_shadow_depth=6
 tooltip_shadow_depth=6
 splitter_width=7
 scroll_width=12
@@ -40,13 +40,13 @@ animate_states=true
 button_contents_shift=true
 combo_as_lineedit=true
 combo_menu=false
-combo_focus_rect=false
+combo_focus_rect=true
 groupbox_top_label=false
 inline_spin_indicators=true
 joined_inactive_tabs=true
 layout_spacing=2
 scrollbar_in_view=false
-submenu_overlap=4
+submenu_overlap=0
 tooltip_delay=-1
 
 [GeneralColors]
@@ -100,10 +100,10 @@ frame.right=4
 interior=true
 interior.element=button
 indicator.size=10
-text.normal.color=#141414
-text.focus.color=#414141
-text.press.color=#141414
-text.toggle.color=#414141
+#text.normal.color=#14f414
+#text.focus.color=#f14141
+#text.press.color=#f41414
+#text.toggle.color=#414141
 text.shadow=0
 text.margin=1
 text.iconspacing=3
@@ -115,23 +115,23 @@ text.margin.right=4
 
 
 [PanelButtonTool]
-inherits=PanelButtonCommand
 interior.element=tbb
 frame.element=tbb
 frame=true
 interior=true
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
+frame.top=6
+frame.bottom=6
+frame.left=6
+frame.right=6
+indicator.element=bui
 text.margin.left=0
 text.margin.right=0
 text.margin.top=0
 text.margin.bottom=0
-text.normal.color=white
+text.normal.color=#ffffffdd
 text.focus.color=white
-text.toggle.color=white
-text.press.color=white
+text.toggle.color=#45fe33
+text.press.color=#ffffffaa
 
 [ToolbarLineEdit]
 interior.element=tlineedit
@@ -144,6 +144,7 @@ frame.top=2
 frame.bottom=2
 frame.left=2
 frame.right=2
+indicator.element=bui
 
 [Dock]
 inherits=PanelButtonCommand
@@ -202,7 +203,7 @@ frame.right=4
 inherits=PanelButtonCommand
 frame.element=lineedit
 interior.element=lineedit
-indicator.element=flat-s-arrow-down
+indicator.element=cbi
 text.normal.color=red
 frame.top=2
 frame.bottom=2
@@ -210,25 +211,29 @@ frame.left=2
 frame.right=2
 
 [DropDownButton]
-inherits=PanelButtonCommand
-indicator.element=b-arrow-down
+#inherits=PanelButtonCommand
+#indicator.element=b-arrow-down
+indicator.element=cbi
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 
 [IndicatorArrow]
 indicator.element=arrow
 indicator.size=10
 
 [ToolboxTab]
-inherits=PanelButtonCommand
-text.normal.color=green
-text.press.color=#000000c8
+text.normal.color=#54575b
+text.press.color=#00579c
 text.focus.color=#2B7EA8
 
 [Tab]
 interior.element=tab
-text.margin.left=0
-text.margin.right=0
-text.margin.top=0
-text.margin.bottom=0
+text.margin.left=1
+text.margin.right=1
+text.margin.top=1
+text.margin.bottom=1
 frame.element=tab
 indicator.element=tab
 indicator.size=9
@@ -243,7 +248,7 @@ text.bold=false
 text.shadow=false
 
 [TabFrame]
-inherits=PanelButtonCommand
+#inherits=PanelButtonCommand
 frame.element=tabframe
 interior=false
 frame.top=1
@@ -304,15 +309,16 @@ interior.element=slidercursor
 indicator.element=none
 
 [Progressbar]
-inherits=PanelButtonCommand
+#inherits=PanelButtonCommand
 frame.element=progress
 interior.element=progress
+frame=false
 text.margin=0
-text.normal.color=black
-text.focus.color=black
-text.press.color=black
-text.toggle.color=black
-text.bold=true
+text.normal.color=yellow
+text.focus.color=red
+text.press.color=blue
+text.toggle.color=green
+text.bold=false
 
 [ProgressbarContents]
 inherits=PanelButtonCommand
@@ -377,6 +383,7 @@ frame=true
 frame.element=menuitem
 interior.element=menuitem
 indicator.element=menuitem
+indicator.size=10
 text.normal.color=white
 text.focus.color=white
 text.toggle.color=white
@@ -429,12 +436,11 @@ text.italic=true
 frame.expansion=0
 
 [ComboBox]
-#inherits=PanelButtonCommand
-indicator.element=none
-text.normal.color=#45484b
-text.press.color=#45484b
+indicator.element=cbi
+text.normal.color=#54575b
+text.press.color=#54575b
 text.focus.color=#45484b
-text.toggle.color=white
+text.toggle.color=#54575b
 
 [Menu]
 inherits=PanelButtonCommand
@@ -471,10 +477,10 @@ frame=true
 frame.element=tabbarFrame
 interior.element=tabbarFrame
 interior=true
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 
 [ToolTip]
 inherits=GenericFrame
