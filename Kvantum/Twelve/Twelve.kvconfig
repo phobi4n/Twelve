@@ -167,7 +167,7 @@ text.bold=true
 
 [IndicatorSpinBox]
 inherits=PanelButtonCommand
-indicator.element=s-arrow
+indicator.element=sbi
 frame.top=3
 frame.bottom=3
 frame.left=3
