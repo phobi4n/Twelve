@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.2456519"
-     inkscape:cx="67.42805"
-     inkscape:cy="0.20495174"
+     inkscape:zoom="14.836944"
+     inkscape:cx="-19.17719"
+     inkscape:cy="49.159794"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -78,43 +78,6 @@
          d="m 82.226562,47.617188 v 2.492187 h -2.492187 v 2.527344 h 2.492187 v 2.492187 h 2.527344 v -2.492187 h 2.492188 v -2.527344 h -2.492188 v -2.492187 z"
          style="opacity:1;fill:#000000;fill-opacity:0.18918918;fill-rule:evenodd;stroke:none;stroke-width:1.78497815;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="active-center"
-       transform="translate(5.6995619,4.1864039)">
-      <rect
-         y="283.14185"
-         x="-5.1985822"
-         height="5.291667"
-         width="5.291667"
-         id="rect858"
-         style="opacity:1;fill:none;fill-opacity:0.125;fill-rule:evenodd;stroke:none;stroke-width:3.24064445;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges" />
-      <g
-         transform="rotate(45,2.7820058,279.99721)"
-         id="g2630"
-         style="shape-rendering:crispEdges">
-        <rect
-           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.47227547;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-           id="rect2624"
-           width="0.66834229"
-           height="1.9871042"
-           x="205.41141"
-           y="200.36195"
-           transform="rotate(45)" />
-      </g>
-      <g
-         style="shape-rendering:crispEdges"
-         id="g2389"
-         transform="rotate(135,0.70575591,285.65421)">
-        <rect
-           transform="rotate(45)"
-           y="200.36195"
-           x="205.41141"
-           height="1.9871042"
-           width="0.66834229"
-           id="rect2387"
-           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.47227547;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      </g>
     </g>
     <g
        id="hover-center"
@@ -226,6 +189,27 @@
            id="rect2427"
            style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.47227547;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
       </g>
+    </g>
+    <g
+       id="active-center">
+      <rect
+         y="282.99268"
+         x="-9.1099291"
+         height="5.291667"
+         width="5.291667"
+         id="rect858"
+         style="opacity:1;fill:none;fill-opacity:0.13999999;fill-rule:evenodd;stroke:none;stroke-width:3.24064445;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges" />
+      <circle
+         r="1.8520833"
+         cy="285.63849"
+         cx="-6.4640961"
+         id="path2312"
+         style="opacity:1;fill:#00acc2;fill-opacity:1;fill-rule:evenodd;stroke:#67c9d6;stroke-width:0.79375005;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         id="rect2624"
+         d="m -6.8646861,284.44787 v 0.79025 h -0.790035 v 0.80075 h 0.790035 v 0.79025 h 0.8011799 v -0.79025 h 0.7900352 v -0.80075 h -0.7900352 v -0.79025 z"
+         style="opacity:1;fill:#ffffff;fill-opacity:0.88;fill-rule:evenodd;stroke:none;stroke-width:0.47227547;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
 </svg>
