@@ -51,8 +51,8 @@ tooltip_delay=-1
 
 [GeneralColors]
 window.color=#eaeaea
-base.color=#FCFCFC
-alt.base.color=#F0F0F0
+base.color=#fcfcfc
+alt.base.color=#f4f4f4
 button.color=#E1DCD7
 light.color=#F3F3F3
 mid.light.color=#ECECEC
@@ -60,7 +60,7 @@ dark.color=#BEBEBE
 mid.color=#D9D9D9
 highlight.color=#0277bd
 inactive.highlight.color=#2d82ad
-text.color=#3c3c39
+text.color=#484f56
 window.text.color=#484f56
 button.text.color=#484f56
 disabled.text.color=#00000073
@@ -260,6 +260,7 @@ frame.right=1
 
 [TreeExpander]
 indicator.element=pointer
+indicator.size=10
 
 [HeaderSection]
 frame=true
@@ -343,8 +344,10 @@ interior.element=splitter
 frame.element=splitter
 frame.top=0
 frame.bottom=0
-frame.left=1
-frame.right=1
+frame.left=0
+frame.right=0
+interior=true
+frame=true
 indicator.element=splitter-grip
 indicator.size=16
 
